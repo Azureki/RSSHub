@@ -43,7 +43,7 @@
   "devDependencies": {
     "@napi-rs/pinyin": "1.7.0",
     "@types/koa": "2.13.4",
-    "@vercel/nft": "0.19.1",
+    "@vercel/nft": "0.20.0",
     "@vuepress/plugin-back-to-top": "1.9.7",
     "@vuepress/plugin-google-analytics": "1.9.7",
     "@vuepress/plugin-pwa": "1.9.7",
@@ -79,7 +79,7 @@
   "dependencies": {
     "@koa/router": "10.1.1",
     "@postlight/mercury-parser": "2.2.1",
-    "@sentry/node": "7.1.0",
+    "@sentry/node": "7.1.1",
     "aes-js": "3.1.2",
     "art-template": "4.13.2",
     "bbcodejs": "0.0.4",
@@ -95,7 +95,7 @@
     "etag": "1.8.1",
     "fanfou-sdk": "4.2.0",
     "git-rev-sync": "3.0.2",
-    "googleapis": "100.0.0",
+    "googleapis": "101.0.0",
     "got": "11.8.5",
     "https-proxy-agent": "5.0.1",
     "iconv-lite": "0.6.3",
