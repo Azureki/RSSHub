@@ -26,6 +26,14 @@
 
 :::
 
+::: warning 注意
+
+filter 支持正则表达式。由于正则部分特性可被利用于 DoS (ReDOS)，默认引擎`re2`屏蔽了部分`Regexp`功能，且在部分情况下表现不一致。具体差异可以[查看文档](https://github.com/uhop/node-re2#limitations-things-re2-does-not-support)
+
+如果需要指定不同的引擎，请参考[功能特性 -> FILTER_REGEX_ENGINE](install/#pei-zhi-gong-neng-te-xing)。
+
+:::
+
 可以使用以下 URL query 过滤内容，支持通过正则表达式过滤
 
 `filter` 选出想要的内容
@@ -37,6 +45,8 @@
 -   `filter_description`: 过滤描述
 
 -   `filter_author`: 过滤作者
+
+-   `filter_category`: 过滤分类
 
 -   `filter_time`: 过滤时间，仅支持数字，单位为秒。返回指定时间范围内的内容。如果条目没有输出`pubDate`或者格式不正确将不会被过滤
 
@@ -52,6 +62,8 @@
 -   `filterout_description`: 过滤描述
 
 -   `filterout_author`: 过滤作者
+
+-   `filterout_category`: 过滤分类
 
 举例: `https://rsshub.app/bilibili/fav/2267573/801952073?filterout=编曲|摄影`
 
