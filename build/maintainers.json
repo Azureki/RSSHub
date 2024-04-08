@@ -180,9 +180,6 @@
   "/50forum/": [
     "sddiky"
   ],
-  "/51cto/index/recommend": [
-    "cnkmmk"
-  ],
   "/52hrtt/:area?/:type?": [
     "nczitzk"
   ],
@@ -6269,9 +6266,7 @@
   "/youtube/community/:handle": [
     "TonyRL"
   ],
-  "/youtube/c/:username/:embed?": [
-    "TonyRL"
-  ],
+  "/youtube/c/:username/:embed?": [],
   "/youtube/live/:username/:embed?": [
     "sussurr127"
   ],
